@@ -1,3 +1,6 @@
+* {
+    font-family: roboto;
+}
 .section-1 {
     width: auto;
     height: auto;
@@ -20,4 +23,19 @@
 }
 .scroll-down {
     padding: 4%;
+}
+.section-2 {
+    text-align: center;
+    padding-top: 3%;
+ 
+}
+.section-3 {
+    text-align: center;
+    padding-top: 3%;
+    background-image: url(asset/laptop.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 400px;
+    font-weight: 700;
+    color: white
 }
