@@ -10,8 +10,10 @@
     background-size: cover;
     background-position: center;
     margin: 0px;
-    height: 700px;
-    font-family: ;
+    height: 650px;
+}
+.name {
+    padding: 2% 0 2% 0;
 }
 .intro {
     text-align: center;
@@ -28,7 +30,10 @@
 .section-2 {
     text-align: center;
     padding-top: 3%;
- 
+    height: 400px;
+}
+.p-about {
+    padding-top: 3%;
 }
 .section-3 {
     text-align: center;
@@ -40,9 +45,16 @@
     font-weight: 700;
     color: white;
 }
+.p-service {
+    padding: 3% 0 23% 0;
+}
 .section-4 {
     text-align: center;
 }
+#design, #development, #product {
+    padding-top: 2%;
+}
+
 .section-5 {
     height: 630px;
     width: 100%;
@@ -116,7 +128,7 @@
 
 .section-6 {
     padding: 3%;
-    height: 500px;
+    height: 550px;
     background-image: url(asset/back.jpg);
     background-position: center;
     background-size: cover;
@@ -145,6 +157,9 @@
 ::placeholder {
     color: white;
 
+}
+textarea {
+    border: 2px solid white;
 }
 .message {
     padding-top: 4%;
