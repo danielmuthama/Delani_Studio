@@ -37,8 +37,31 @@
     background-position:center;
     height: 400px;
     font-weight: 700;
-    color: white
+    color: white;
 }
 .section-4 {
     text-align: center;
+}
+.section-6 {
+    padding: 3%;
+    height: 400px;
+}
+
+.contact-us {
+    text-align: center;
+    padding: 3%;
+}
+#inputName {
+    width: 55%;
+}
+#inputEmail {
+    width: 55%;
+}
+#inputMessage {
+    width: 70%;
+    height:60px;
+}
+.message {
+    padding-top: 4%;
+    height: 700px;
 }
