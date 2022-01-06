@@ -45,6 +45,9 @@
 .section-6 {
     padding: 3%;
     height: 500px;
+    background-image: url(asset/back.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .contact-us {
@@ -53,13 +56,23 @@
 }
 #inputName {
     width: 65%;
+    background-color: transparent;
+    color: white;
 }
 #inputEmail {
     width: 65%;
+    background-color: transparent;
+    color: white;
 }
 #inputMessage {
     width: 70%;
     height:150px;
+    background-color: transparent;
+    color: white;
+}
+::placeholder {
+    color: white;
+
 }
 .message {
     padding-top: 4%;
