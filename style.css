@@ -44,7 +44,7 @@
 }
 .section-6 {
     padding: 3%;
-    height: 400px;
+    height: 500px;
 }
 
 .contact-us {
@@ -52,16 +52,18 @@
     padding: 3%;
 }
 #inputName {
-    width: 55%;
+    width: 65%;
 }
 #inputEmail {
-    width: 55%;
+    width: 65%;
 }
 #inputMessage {
     width: 70%;
-    height:60px;
+    height:150px;
 }
 .message {
     padding-top: 4%;
-    height: 700px;
+}
+.section-7 {
+    text-align: center;
 }
