@@ -79,4 +79,13 @@
 }
 .section-7 {
     text-align: center;
+    height: 200px;
+}
+.social-con {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.social {
+    padding: 4% 0 4% 0;
 }
