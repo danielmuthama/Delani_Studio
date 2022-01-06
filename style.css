@@ -121,17 +121,17 @@
     text-align: center;
     padding: 3%;
 }
-#inputName {
+#inputmyName {
     width: 65%;
     background-color: transparent;
     color: white;
 }
-#inputEmail {
+#inputmyEmail {
     width: 65%;
     background-color: transparent;
     color: white;
 }
-#inputMessage {
+#inputmyMessage {
     width: 70%;
     height:150px;
     background-color: transparent;
