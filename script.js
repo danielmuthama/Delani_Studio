@@ -13,6 +13,6 @@ function formvalidation(){
         alert("Please enter a Message");
         return false;
     }else{
-        alert("Welcome " + myName + " The message has been received");
+        alert("Welcome " + myName + " your message has been received and we will respond ASAP");
     }
 }
