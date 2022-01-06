@@ -42,6 +42,73 @@
 .section-4 {
     text-align: center;
 }
+.section-5 {
+    height: 630px;
+    width: 100%;
+  }
+  
+  .portfolio-img1, .portfolio-img2,.portfolio-img3, .portfolio-img4, .portfolio-img5, .portfolio-img6, .portfolio-img7, .portfolio-img8 {
+    width: 220px;
+    height: 200px;
+  }
+
+  
+  .portfolio-1 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .portfolio-2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+  }
+  
+  .flip-box {
+    background: transparent;
+    width: 220px;
+    height: 200px;
+  }
+  
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front,
+  .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-box-back {
+    transform: rotateY(180deg);
+  }
+  
+  #flip {
+    color: white;
+    font: size 60px;
+  }
+  
+.h2-portfolio {
+    text-align: center;
+    padding: 3%;
+}
+
 .section-6 {
     padding: 3%;
     height: 500px;
