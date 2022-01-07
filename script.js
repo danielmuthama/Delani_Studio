@@ -1,18 +1,3 @@
-jQuery(".hide-design-image").click(function() {
-    jQuery('design-icon').toggle();
-    jQuery('hide-design').toggle();
-});​
-
-jQuery(".hide-developement-image").click(function() {
-    jQuery('dev-icon').toggle();
-    jQuery('hide-dev').toggle();
-
-});​
-jQuery(".hide-product-image").click(function() {
-    jQuery('product-icon').toggle();
-    jQuery('hide-product').toggle();
-
-});​
 
 function formvalidation(){
     let myName = document.myForm.inputmyName.value;
@@ -33,4 +18,17 @@ function formvalidation(){
     }
 }
 
-    
+jQuery(".hide-design-image").click(function() {
+    jQuery('design-icon').toggle();
+    jQuery('hide-design').toggle();
+});​
+
+jQuery(".hide-developement-image").click(function() {
+    jQuery('dev-icon').toggle();
+    jQuery('hide-dev').toggle();
+});​
+
+jQuery(".hide-product-image").click(function() {
+    jQuery('product-icon').toggle();
+    jQuery('hide-product').toggle();
+});​
