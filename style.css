@@ -50,6 +50,7 @@
 }
 .section-4 {
     text-align: center;
+    height: 450px;
 }
 #design, #development, #product {
     padding-top: 2%;
@@ -121,7 +122,7 @@
     text-align: center;
     padding: 3%;
 }
-.hide-design .hide-dev, .hide-product {
+.hide-design, .hide-dev, .hide-product {
     display: none;
 
 }
