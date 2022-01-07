@@ -123,6 +123,9 @@
 }
 .hide-design, .hide-dev, .hide-product {
     display: none;
+    text-align: center;
+    margin-left: 30px;
+    font-size: 12px;
 }
 
 .section-6 {

@@ -3,7 +3,6 @@
 ##### By Daniel Muthama
 
 ![Project Image](asset/projecimage.png)
-### It is a description of my resume.
 
 ## Table of Content
 
@@ -15,7 +14,7 @@
 + [Authors Info](#author-Info)
 
 ## Description
-<p>This is  a webpage that a webpage which displays services offered by Delani Studio</p>
+<p>This is  a webpage that displays services offered by Delani Studio</p>
 
 ## Installation
 
