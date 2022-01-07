@@ -50,12 +50,11 @@
 }
 .section-4 {
     text-align: center;
-    height: 450px;
+    height: 500px;
 }
 #design, #development, #product {
     padding-top: 2%;
 }
-
 .section-5 {
     height: 630px;
     width: 100%;
@@ -124,7 +123,6 @@
 }
 .hide-design, .hide-dev, .hide-product {
     display: none;
-
 }
 
 .section-6 {
