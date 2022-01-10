@@ -1,19 +1,15 @@
 $(document).ready(function () {
     $("#design-cont").click(function () {
-        $("#design-img").toggle();
+        $("#design-icon").toggle();
         $(".design").toggle();
     });
     $("#develop-cont").click(function () {
-        $("#develop-img").toggle();
+        $("#develop-icon").toggle();
         $(".develop").toggle();
     });
     $("#product-cont").click(function () {
-        $("#product-img").toggle();
+        $("#product-icon").toggle();
         $(".product").toggle();
-    });
-
-    $("#project-a, #project-b, #project-c, #project-d, #project-e, #project-f, #project-g, #project-h").hover(function () {
-        $(this).find(".project").fadeToggle("10");
     });
 
 });

@@ -60,8 +60,9 @@
 h2 {
     padding-top: 2%;
 }
-#design, #development, #product {
+.design, .develop, .product {
     padding-top: 2%;
+    display: none;
 }
 .section-5 {
     height: 630px;

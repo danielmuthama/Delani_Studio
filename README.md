@@ -14,7 +14,7 @@
 + [Authors Info](#author-Info)
 
 ## Description
-<p>This is  a webpage that displays services offered by Delani Studio</p>
+<p>This is  a webpage that displays services offered by Delani Studio. This project is a website for a studio i.e., Delani Studio which contains a welcome, about us, services, what we do, portfolio and, a contact us section.</p>
 
 ## Installation
 
