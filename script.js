@@ -1,17 +1,34 @@
 
-jQuery(".hide-design-image").click(function() {
-    jQuery('.design-icon').toggle();
-    jQuery('.hide-design').toggle();
+$(document).ready(function() {
+$(".design-icon").click(function() {
+    $('.design-icon').hide();
+    $('.design-p').show();
 });​
 
-jQuery(".hide-developement-image").click(function() {
-    jQuery('.dev-icon').toggle();
-    jQuery('.hide-dev').toggle();
+$(".design-p").click(function() {
+    $('.design-p').hide();
+    $('.design-icon').show();
 });​
 
-jQuery(".hide-product-image").click(function() {
-    jQuery('.product-icon').toggle();
-    jQuery('.hide-product').toggle();
+$(".dev-icon").click(function() {
+    $('.dev-icon').hide();
+    $('.dev-p').show();
+});
+$(".dev-p").click(function() {
+    $('.dev-p').hide();
+    $('.dev-icon').show();
+});​
+
+$(".product-icon").click(function() {
+    $('.product-icon').hide();
+    $('.product-p').show();
+});​
+
+$(".product-p").click(function() {
+    $('.product-icon').hide();
+    $('.product-p').show();
+});
+
 });
 
 function formvalidation(){
@@ -23,7 +40,7 @@ function formvalidation(){
         alert("Please enter your Name");
         return false;
     }else if(myEmail == null || myEmail == ""){
-        alert("Please a valid email address");
+        alert("Please enter a valid email address");
         return false;
     }else if(myMessage == null || myMessage == ""){
         alert("Please enter a Message");

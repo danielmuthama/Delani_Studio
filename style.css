@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("./FONTS/Roboto-Light.ttf");
+}
+
 * {
     font-family:'Roboto';
 }
@@ -51,6 +56,9 @@
 .section-4 {
     text-align: center;
     height: 500px;
+}
+.design-p, .dev-p, .product-p {
+    display: none;
 }
 #design, #development, #product {
     padding-top: 2%;
@@ -120,9 +128,6 @@
 .h2-portfolio {
     text-align: center;
     padding: 3%;
-}
-.hide-design, .hide-dev, .hide-product {
-    display: none;
 }
 
 .section-6 {

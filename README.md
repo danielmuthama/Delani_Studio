@@ -33,7 +33,7 @@ Click on the link below to view the site
 
 * CSS - which was used to style the pages incuding the left aside navigation bar
 
-*JAVASCRIPT - which has been used for form validation and jquery
+* JAVASCRIPT - which has been used for form validation and jquery
 
 
 ## Licence
