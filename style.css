@@ -55,10 +55,10 @@
 }
 .section-4 {
     text-align: center;
-    height: 600px;
+    height: 350px;
 }
-.design-p, .dev-p, .product-p {
-    display: none;
+h2 {
+    padding-top: 2%;
 }
 #design, #development, #product {
     padding-top: 2%;
