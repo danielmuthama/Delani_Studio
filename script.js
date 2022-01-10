@@ -1,35 +1,35 @@
 
 $(document).ready(function() {
 $(".design-icon").click(function() {
-    $('.design-icon').hide();
+    $('#design-icon').hide();
     $('.design-p').show();
 });​
 
 $(".design-p").click(function() {
     $('.design-p').hide();
-    $('.design-icon').show();
+    $('#design-icon').show();
 });​
 
-$(".dev-icon").click(function() {
-    $('.dev-icon').hide();
+$("#dev-icon").click(function() {
+    $('#dev-icon').hide();
     $('.dev-p').show();
 });
 $(".dev-p").click(function() {
     $('.dev-p').hide();
-    $('.dev-icon').show();
+    $('#dev-icon').show();
 });​
 
-$(".product-icon").click(function() {
-    $('.product-icon').hide();
+$("#product-icon").click(function() {
+    $('#product-icon').hide();
     $('.product-p').show();
 });​
 
 $(".product-p").click(function() {
-    $('.product-icon').hide();
-    $('.product-p').show();
-});
+    $('.product-p').hide();
+    $('#product-icon').show();
+})
 
-});
+})
 
 function formvalidation(){
     let myName = document.myForm.inputmyName.value;
