@@ -1,13 +1,13 @@
 $(document).ready(function () {
-    $("#design-cont").click(function () {
+    $("#design-container").click(function () {
         $("#design-icon").toggle();
         $(".design").toggle();
     });
-    $("#develop-cont").click(function () {
+    $("#develop-container").click(function () {
         $("#develop-icon").toggle();
         $(".develop").toggle();
     });
-    $("#product-cont").click(function () {
+    $("#product-container").click(function () {
         $("#product-icon").toggle();
         $(".product").toggle();
     });
