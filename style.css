@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Roboto-LightItalic";
-    src: url("./asset/Roboto-LightItalic.ttf");
+    src: url("./asset/Roboto-Medium.ttf");
 }
 body {
         overflow-x: hidden; /* Hide horizontal scrollbar */
@@ -61,7 +61,7 @@ body {
     width: 100%;
 }
 h2 {
-    padding-top: 2%;
+    padding: 2% 0% 0% 0%;
 }
 .design, .develop, .product {
     padding-top: 2%;
