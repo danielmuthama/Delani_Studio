@@ -31,4 +31,8 @@ function formvalidation(){
     }else{
         alert("Welcome " + myName + " your message has been received and we will respond ASAP");
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> main

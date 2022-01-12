@@ -2,15 +2,25 @@
     font-family: "Roboto-LightItalic";
     src: url("./asset/Roboto-LightItalic.ttf");
 }
+<<<<<<< HEAD
+=======
+body {
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+>>>>>>> main
 
 * {
     font-family:'Roboto-LightItalic';
 }
 .section-1 {
+<<<<<<< HEAD
     width: auto;
     height: auto;
     max-width: 100%;
     max-height: 800px;
+=======
+    width: 100%;
+>>>>>>> main
     background-image: url(asset/stair.png);
     background-size: cover;
     background-position: center;
@@ -36,6 +46,10 @@
     text-align: center;
     padding-top: 3%;
     height: 400px;
+<<<<<<< HEAD
+=======
+    width: 100%;
+>>>>>>> main
 }
 .p-about {
     padding-top: 3%;
@@ -49,6 +63,10 @@
     height: 400px;
     font-weight: 700;
     color: white;
+<<<<<<< HEAD
+=======
+    width: 100%;
+>>>>>>> main
 }
 .p-service {
     padding: 3% 0 23% 0;
@@ -56,6 +74,10 @@
 .section-4 {
     text-align: center;
     height: 350px;
+<<<<<<< HEAD
+=======
+    width: 100%;
+>>>>>>> main
 }
 h2 {
     padding-top: 2%;
@@ -137,6 +159,11 @@ h2 {
     background-image: url(asset/back.jpg);
     background-position: center;
     background-size: cover;
+<<<<<<< HEAD
+=======
+    text-align: center;
+    width: 100%;
+>>>>>>> main
 }
 
 .contact-us {
@@ -144,19 +171,32 @@ h2 {
     padding: 3%;
 }
 #inputmyName {
+<<<<<<< HEAD
     width: 65%;
+=======
+    width: 50%;
+>>>>>>> main
     background-color: transparent;
     color: white;
 }
 #inputmyEmail {
+<<<<<<< HEAD
     width: 65%;
+=======
+    width: 50%;
+>>>>>>> main
     background-color: transparent;
     color: white;
     margin-top: 4%;
 }
 #inputmyMessage {
+<<<<<<< HEAD
     width: 70%;
     height:150px;
+=======
+    width: 75%;
+    height:180px ;
+>>>>>>> main
     background-color: transparent;
     color: white;
 }
@@ -173,6 +213,7 @@ textarea {
 .section-7 {
     text-align: center;
     height: 200px;
+<<<<<<< HEAD
 }
 .social-con {
     display: flex;
@@ -181,4 +222,16 @@ textarea {
 }
 .social {
     padding: 4% 0 4% 0;
+=======
+    width: 100%;
+}
+.social-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.social {
+    padding: 2% 1% 2% 1%;
+>>>>>>> main
 }
