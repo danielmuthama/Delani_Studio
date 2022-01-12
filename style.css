@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Roboto-LightItalic";
-    src: url("./asset/Roboto-LightItalic.ttf");
+    src: url("./asset/Roboto-Medium.ttf");
 }
 body {
         overflow-x: hidden; /* Hide horizontal scrollbar */
