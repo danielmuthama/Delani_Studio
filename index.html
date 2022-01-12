@@ -189,23 +189,22 @@
         <div class="contact">
             <h2 class="contact-us">CONTACT US</h2>
             <div class="container">
-                <form name="Form" method="post" action="https://www.linkedin.com/in/daniel-muthama-577b211a5/"
-                    onsubmit="return formvalidation()">
+                <form name="Form" method="post" onsubmit="return formvalidation()">
                     <div class="row">
                         <div class="name form-group col-md-6">
                             <label for="inputName4"></label>
-                            <input type="name" id="inputmyName" placeholder="Name">
+                            <input type="name" id="inputmyName" placeholder="Name" value="">
                         </div>
                         <div class="email form-group col-md-6">
                             <label for="inputEmail4"></label>
-                            <input type="email" id="inputmyEmail" placeholder="Email">
+                            <input type="email" id="inputmyEmail" placeholder="Email" value="">
                         </div>
                     </div>
                     <div class="message">
                         <label for="inputMessage4"></label>
-                        <textarea type="message" id="inputmyMessage" placeholder="Your message here..."></textarea>
+                        <textarea type="message" id="inputmyMessage" value="" placeholder="Your message here..."></textarea>
                     </div>
-                    <input type="submit" value="Submit">
+                    <input type="submit" value="Submit" onsubmit="return formvalidation()">
                 </form>
             </div>
         </div>
