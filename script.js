@@ -15,9 +15,9 @@ $(document).ready(function () {
 });
 
 function formvalidation(){
-    let myName = document.myForm.inputmyName.value;
-    let myEmail = document.myForm.inputmyEmail.value;
-    let myMessage = document.myForm.inputmyMessage.value;
+    let myName = document.getElementById("inputmyName").value;
+    let myEmail = document.getElementById("inputmyEmail").value;
+    let myMessage = document.getElementById("inputmyMessage").value;
 
     if( myName == null || myName == ""){
         alert("Please enter your Name");
