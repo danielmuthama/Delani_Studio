@@ -1,0 +1,191 @@
+@font-face {
+    font-family: "Roboto-LightItalic";
+    src: url("./asset/Roboto-Medium.ttf");
+}
+body {
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+* {
+    font-family:'Roboto-LightItalic';
+}
+.section-1 {
+    width: 100%;
+    background-image: url(asset/stair.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    height: 680px;
+}
+.name {
+    padding: 2% 0 2% 0;
+}
+.intro {
+    text-align: center;
+    padding-top: 12%;
+    color: white;
+    font-weight: 700;
+}
+.image {
+    padding: 4%;
+}
+.scroll-down {
+    padding: 4%;
+}
+.section-2 {
+    text-align: center;
+    padding-top: 3%;
+    height: 400px;
+    width: 100%;
+}
+.p-about {
+    padding-top: 3%;
+}
+.section-3 {
+    text-align: center;
+    padding-top: 3%;
+    background-image: url(asset/laptop.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 400px;
+    font-weight: 700;
+    color: white;
+    width: 100%;
+}
+.p-service {
+    padding: 3% 0 23% 0;
+}
+.section-4 {
+    text-align: center;
+    height: 350px;
+    width: 100%;
+}
+h2 {
+    padding-top: 2%;
+}
+.design, .develop, .product {
+    padding-top: 2%;
+    display: none;
+}
+.section-5 {
+    height: 630px;
+    width: 100%;
+  }
+  
+  .portfolio-img1, .portfolio-img2,.portfolio-img3, .portfolio-img4, .portfolio-img5, .portfolio-img6, .portfolio-img7, .portfolio-img8 {
+    width: 220px;
+    height: 200px;
+  }
+
+  
+  .portfolio-1 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .portfolio-2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+  }
+  
+  .flip-box {
+    background: transparent;
+    width: 220px;
+    height: 200px;
+  }
+  
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front,
+  .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-box-back {
+    transform: rotateY(180deg);
+  }
+  
+  #flip {
+    color: white;
+    font: size 60px;
+  }
+  
+.h2-portfolio {
+    text-align: center;
+    padding: 3%;
+}
+
+.section-6 {
+    padding: 3%;
+    height: 550px;
+    background-image: url(asset/back.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+}
+
+.contact-us {
+    text-align: center;
+    padding: 3%;
+}
+#inputmyName {
+    width: 50%;
+    background-color: transparent;
+    color: white;
+}
+#inputmyEmail {
+    width: 50%;
+    background-color: transparent;
+    color: white;
+    margin-top: 4%;
+}
+#inputmyMessage {
+    width: 75%;
+    height:180px ;
+    background-color: transparent;
+    color: white;
+}
+::placeholder {
+    color: white;
+
+}
+textarea {
+    border: 2px solid white;
+}
+.message {
+    padding-top: 4%;
+}
+.section-7 {
+    text-align: center;
+    height: 200px;
+    width: 100%;
+}
+.social-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.social {
+    padding: 2% 1% 2% 1%;
+}
