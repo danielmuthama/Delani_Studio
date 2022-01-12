@@ -1,10 +1,10 @@
 @font-face {
-    font-family: "Roboto";
-    src: url("./FONTS/Roboto-Light.ttf");
+    font-family: "Roboto-LightItalic";
+    src: url("./asset/Roboto-LightItalic.ttf");
 }
 
 * {
-    font-family:'Roboto';
+    font-family:'Roboto-LightItalic';
 }
 .section-1 {
     width: auto;
@@ -55,13 +55,14 @@
 }
 .section-4 {
     text-align: center;
-    height: 500px;
+    height: 350px;
 }
-.design-p, .dev-p, .product-p {
-    display: none;
-}
-#design, #development, #product {
+h2 {
     padding-top: 2%;
+}
+.design, .develop, .product {
+    padding-top: 2%;
+    display: none;
 }
 .section-5 {
     height: 630px;
@@ -155,8 +156,8 @@
     margin-top: 4%;
 }
 #inputmyMessage {
-    width: 83%;
-    height:180px;
+    width: 85%;
+    height:180px ;
     background-color: transparent;
     color: white;
 }
@@ -178,8 +179,8 @@ textarea {
     display: flex;
     flex-direction: row;
     justify-content: center;
+
 }
 .social {
     padding: 2% 1% 2% 1%;
-
 }
